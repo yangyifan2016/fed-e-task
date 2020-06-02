@@ -23,12 +23,26 @@ fp.flowRight(fp.prop('name'), fp.first)
 ```
 ### 3
 ```
-let _average = function(xs) {
-    return fp.reduce(fp.add, 0, xs) / xs.length
-}
-let averageDollarValue = 
+fp.flowRight(_average, fp.map(fp.prop('dollar_value')))
 ```
 ### 4
 ```
-const sanitizeNames = fp.flowRight(fp._underscore, fp.toLower, fp.map)
+const sanitizeNames = fp.flowRight(_underscore, fp.toLower, fp.prop('name'))
+```
+# 代码题2
+### 1
+```
+let ex1 = maybe.map(arr => fp.map(fp.add(1), arr))
+```
+### 2
+```
+let ex2 = xs.map(arr => fp.first(arr))
+```
+### 3
+```
+let ex3 = safeProp('name', user).map(x => fp.first(x))
+```
+### 4
+```
+let ex4 = n => Maybe.of(n).map(x => parseInt(x))._value
 ```
