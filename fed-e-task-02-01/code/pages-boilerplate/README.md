@@ -1,3 +1,4 @@
+# 录制说明视频不太方便，说明文字已添加至对应文件顶部注释 gruntfile.js gulpfile.js
 # pages-boilerplate
 
 [![Build Status][travis-image]][travis-url]
