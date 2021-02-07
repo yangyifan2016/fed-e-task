@@ -1,0 +1,53 @@
+*{
+    margin:0;
+    padding:0;
+}
+.margin-10{
+    margin:10px;
+}
+.padding-10{
+    padding:10px;
+}
+.padding-right{
+    padding-right:10px;
+}
+.inline-block{
+    display: inline-block;
+}
+.pointer{
+    cursor: pointer;
+}
+ul,li{
+    list-style: none;
+}
+.movie{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding:10px;
+    position: relative;
+}
+.movie:hover{
+    background-color: #010;
+}
+.movie>span{
+    display: inline-block;
+    width:30%;
+}
+.movie>a{
+    position: absolute;
+    top:5px;
+    right:0;
+}
+.container{
+    width:500px;
+    padding:20px;
+    background-color: black;
+    color:#fff;
+}
+.fr{
+    float: right;
+}
+
+/*# sourceMappingURL=/src.f41506f2.css.map */
