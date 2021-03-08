@@ -1,0 +1,15 @@
+{
+  "name": "blog-with-gridsome",
+  "private": true,
+  "scripts": {
+    "develop": "gridsome develop",
+    "explore": "gridsome explore",
+    "build": "gridsome build"
+  },
+  "dependencies": {
+    "gridsome": "^0.7.0"
+  },
+  "devDependencies": {
+    "pngquant": "^4.0.0"
+  }
+}
